@@ -13,7 +13,7 @@
         var pitchElement = document.getElementById('pitchElement');
         //var yawElement = document.getElementById('yawElement');
 
-        var subscriptionKey = "59ac59db8e904d228bbaacdf3d93066c";
+        var subscriptionKey = key;
         var endpoint = "https://westeurope.api.cognitive.microsoft.com/";
         var uriBase = endpoint + "face/v1.0/detect";
         var webcamStream;
